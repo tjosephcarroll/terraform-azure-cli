@@ -34,7 +34,7 @@ RUN pip3 install azure-cli==${AZURE_CLI_VERSION}
 
 # Build final image
 FROM debian:${DEBIAN_VERSION}
-LABEL maintainer="bgauduch@github"
+LABEL maintainer="tjosephcarroll@github"
 ARG PYTHON_MAJOR_VERSION
 RUN apt-get update \
   && apt-get install -y --no-install-recommends \

@@ -2,7 +2,7 @@
 
 set -eo pipefail
 
-IMAGE_NAME="zenika/terraform-azure-cli:dev"
+IMAGE_NAME="tjosephcarroll/terraform-azure-cli:dev"
 
 # Lint Dockerfile
 echo "Linting Dockerfile..."
